@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pure Pulse</title>
+    <link
+      rel="shortcut icon"
+      href="https://drive.google.com/uc?id=1mVJqL8mQdZ5xAGi_dimjz1n6EKCN_eC7"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <!-- Font links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rajdhani&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <audio id="current-selected-song" src=""></audio>
+
+    <div id="body-center-parent">
+      <div id="left-slider-icon-parent" class="left-slider-icon-parent-in">
+        <img
+          id="left-slider-icon"
+          class="left-slider-icon-in"
+          src="https://drive.google.com/uc?id=1zAnkSWyHa7WFxIDKOIv0PNXvzW77RAjx"
+        />
+      </div>
+
+      <div id="playlist-items-parent" class="playlist-items-parent-in">
+        <!-- used by javaScript -->
+        <!-- <div class="playlist-block">
+                <div class="playlist-details-control-parent">
+                    <div class="playlist-tittle-parent"><span>Playlist Tittle</span></div>
+                    <div class="playlist-control-parent"><img class="playlist-play/pause-icon" src="/icons/play (3).png" width="50px"></div>
+                </div>
+            </div>   -->
+      </div>
+
+      <div id="songplayer-parent">
+        <div id="volume-controler-parent">
+          <input
+            id="volume-controler"
+            type="range"
+            min="0"
+            max="100"
+            value="50"
+          />
+        </div>
+        <div id="song-cover-parent" style="background-image: url(https://i.gifer.com/origin/db/db06c14a3148ef1e0764641c2dc1f347_w200.webp);">
+          
+        </div>
+        <div id="song-tittle-main">
+          <span>Sample Text</span>
+        </div>
+        <div id="song-progressbar-timestamp-parent">
+          <div id="timestamp-parent">
+            <span id="elapsed-time">00:00</span>
+            <span id="total-time">00:00</span>
+          </div>
+          <div id="progressbar-parent">
+            <input id="progressbar" type="range" value="0" min="0" />
+          </div>
+        </div>
+        <div id="song-control">
+          <img
+            id="backward-button"
+            src="https://drive.google.com/uc?id=19BGJoto8C5RN-lrkaPPst5KMm8C3Sl_V"
+            width="35px"
+          />
+          <img
+            id="play-pause-button"
+            src="https://drive.google.com/uc?id=1sntL0LqLwTVoF35Bn8bIFeVArNXCgG_V"
+            width="35px"
+          />
+          <img
+            id="forward-button"
+            src="https://drive.google.com/uc?id=1mJdZpWr_T7vzW88c4s6UQAYz8gfHafAQ"
+            width="35px"
+          />
+        </div>
+      </div>
+
+      <div id="song-items-parent" class="song-items-parent-in">
+        <!-- used by JavaScript -->
+        <!-- <div class="songs-details-control-parent">
+                <div class="song-mini-cover-parent">h</div>
+                <div class="song-title-parent"><span>Been a While</span></div>
+                <div class="song-control-parent">
+                    <img class="mini-pause/play-icon" src="/icons/mini-pause-icon.png" width="20px">
+                    <img class="more-dot-icon" src="/icons/more-dot-icon.png" width="20px">
+                </div>
+            </div> -->
+      </div>
+
+      <div id="right-slider-icon-parent" class="right-slider-icon-parent-in">
+        <img
+          id="right-slider-icon"
+          class="right-slider-icon-in"
+          src="https://drive.google.com/uc?id=19zqM4JBOfVJUruMnrXDgtJVEXMKmgl8s"
+        />
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
